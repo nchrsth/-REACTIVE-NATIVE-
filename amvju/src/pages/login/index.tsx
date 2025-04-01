@@ -7,13 +7,14 @@ import {
 } from 'react-native';
 
 import { style } from "./styles";
-import { logo } from "../../assets/amvju.jpg"
+import { logo } from "../../assets/logo.jpg"
 export default function Login (){
     return (
         <view style={style.container}>
             <view style={style.boxTop}>
-                <image
+                <Image
                  source={logo}  
+                 
                  />
 
             </view>
