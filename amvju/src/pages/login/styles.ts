@@ -1,25 +1,28 @@
 import { StyleSheet } from "react-native";
 
+
+
 export const  style = StyleSheet.create({
     container:{
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
-        //padding: 20
+    
     },
     boxTop:{
         height: 200,
         width:'100%',
-        backgroundColor: 'red'
+        alignItems: 'center',
+        backgroundColor: 'white'
     },
     boxMid:{
         height: 200,
         width:'100%',
-        backgroundColor: 'red'
+        backgroundColor: 'blue'
     },
     boxBottom:{
         height: 200,
         width:'100%',
-        backgroundColor: 'red'
+        backgroundColor: 'green'
     }
 })
